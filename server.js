@@ -29,5 +29,5 @@ app.listen(PORT, () => {
 module.exports = {
     app: app,
     db: db, 
-    port:PORT
+    PORT:PORT
 }; 
