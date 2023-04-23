@@ -1,7 +1,9 @@
 const express = require('express');
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
-const { app, db, PORT }= require('./server.js');
+const app = require('./server.js');
+const PORT = require('./server.js');
+const db = require('./server.js');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
